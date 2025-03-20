@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+}
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#overlay{
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 4%;
+    border: 12px solid #1f1d1d;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+li {
+    margin: 10px 0;
+}
+button {
+    margin-left: 10px;
+}
+#taskInput{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#addButton{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #180606;
+    background-color: #310202;
+    color: white;
+}
+.task-item {
+    margin: 10px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ff4444; /* Red background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.delete-btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+.delete-btn:active {
+    background-color: #990000; /* Even darker when clicked */
+}
